@@ -1,11 +1,10 @@
 import { StyleSheet, View, Text, Pressable } from "react-native";
 
-function PrimaryButton(props){
-    console.log(props.text);
+function PrimaryButton({children}){
     return(
         <View>
             <Text>
-                {props.text}
+                {children}
             </Text>
         </View>
     );
