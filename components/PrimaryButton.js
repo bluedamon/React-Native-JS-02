@@ -1,11 +1,9 @@
-import { StyleSheet, View, Text, Pressable } from "react-native";
+import { StyleSheet, View, Text } from 'react-native';
 
-function PrimaryButton({children}){
-    return(
+function PrimaryButton({ children }) {
+    return (
         <View>
-            <Text>
-                {children}
-            </Text>
+            <Text>{children}</Text>
         </View>
     );
 };
