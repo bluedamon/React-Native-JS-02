@@ -4,7 +4,7 @@ import PrimaryButton from '../components/PrimaryButton';
 
 function StartGameScreen() {
     return (
-        <View style={styles.inputCOntainer}>
+        <View style={styles.inputContainer}>
             <TextInput style={styles.numberInput} maxLength={2} keyboardType='number-pad' autoCapitalize='none' autoCorrect={false}/>
             <View style={styles.buttonsContainer}>
               <View style={styles.buttonContainer}>
@@ -19,14 +19,14 @@ function StartGameScreen() {
 }; 
 
 const styles = StyleSheet.create({
-  inputCOntainer: {
+  inputContainer: {
     justifyContent: 'center',
     alignItems: 'center',
     marginTop: 100,
     marginHorizontal: 24,
     borderRadius: 8,
     padding: 16,
-    backgroundColor: '#4e0329',
+    backgroundColor: '#3b021f',
     elevation: 4,
     shadowColor: '#000000',
     shadowOffset: {
