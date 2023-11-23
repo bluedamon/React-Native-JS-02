@@ -17,10 +17,10 @@ function PrimaryButton({ children }) {
 const styles = StyleSheet.create({
     buttonOuterContainer: {
         margin: 4,
-        overFlow: 'hidden',
+        overflow: 'hidden',
+        borderRadius: 28,
     },
     buttonInnerContainer: {
-        borderRadius: 28,
         backgroundColor: '#72063c',
         paddingVertical: 8,
         paddingHorizontal: 16,
